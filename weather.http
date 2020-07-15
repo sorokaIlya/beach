@@ -1,0 +1,11 @@
+GET http://api.openweathermap.org/data/2.5/weather?q=Ordzhonikidze,Crimea,UA&appid=dc7ada61b156a56a0a64e27fa1e84476
+
+###
+GET http://api.openweathermap.org/data/2.5/weather?q=Feodosia,Crimea,UA&appid=dc7ada61b156a56a0a64e27fa1e84476
+
+###
+
+GET http://api.openweathermap.org/data/2.5/weather?q=Yalta,Crimea,UA&appid=dc7ada61b156a56a0a64e27fa1e84476
+
+###
+

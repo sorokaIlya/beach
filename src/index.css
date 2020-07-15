@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  background-size: cover;
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+  background-image:url("./images/sand.jpeg");
+}
+.main{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 550px;
+  padding: 10px 50px;
+  margin:0 50px;
+}
+.ant-select .ant-select-arrow {
+  top: 50%;
+}
+.present{
+  margin: 5px 0;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #EEE;
+  padding: 25px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url("./images/fon.jpg");
+}
+.auxiliary{
+
+  border-bottom: 1px solid #345;
+}
+.player{
+  max-height: 400px;
+  min-height: 250px;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+}
+.galellery{
+  margin-top: -5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2 , minmax(200px, auto));
+
+}
+.galellery-component{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+  width: 100%;
+  border:1px solid #fff;
+  overflow: hidden;
+  transition: transform 1ms ease;
+}
+.galellery-img-holder {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s linear;
+}
+.galellery-img-holder:hover {
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 800px){
+  .galellery{
+    display: flex;
+    flex-direction: column;
+  }
+  .galellery-component{
+    height: 200px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 640px){
+  .main{
+    margin:0;
+    padding:0 5px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .player{
+    min-height: 200px;
+  }
+video{
+  object-fit: cover;
+}
+}
+@media only screen and (max-width: 350px) {
+  .present{
+    margin-top:-15px;
+  }
+}
+
